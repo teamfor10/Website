@@ -2,8 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - My Website</title>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>@ViewData["Title"] - Asa Staven</title>
+        
+    <!--Added from marty.com-->
+    <link rel="stylesheet" type="text/css" href="/wwwroot/css/screen.css" />
+	<!--<link rel="stylesheet" href="/wwwroot/css/responsive.css" />-->
+    <script type="text/javascript" src="/wwwroot/js/script.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> <!--jQuery UI library-->
+    <!--End Marty-->
 
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -26,7 +34,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Timeline" asp-action="Index" class="navbar-brand">Website</a>
+                <a asp-area="" asp-controller="HelloWorld" asp-action="Index" class="navbar-brand">Resume</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -41,7 +49,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2016 - Website</p>
+            <p>&copy; 2017 - Asa's Website</p>
         </footer>
     </div>
 

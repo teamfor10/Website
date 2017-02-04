@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>@ViewData["Title"] - Asa Staven</title>
         
-    <!--Added from marty.com-->
-    <link rel="stylesheet" type="text/css" href="/wwwroot/css/screen.css" />
-	<!--<link rel="stylesheet" href="/wwwroot/css/responsive.css" />-->
-    <script type="text/javascript" src="/wwwroot/js/script.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> <!--jQuery UI library-->
-    <!--End Marty-->
+    <link rel="stylesheet" type="text/css" href="~/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Anton|Bungee+Inline|Francois+One|Gravitas+One|Maven+Pro:900|Playfair+Display+SC:900|Russo+One" rel="stylesheet">-->
+    <!-- Import and link jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="~/js/script.js"></script>
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script> jQuery UI library causes problem can't find jQuery-->
+    
 
-    <environment names="Development">
+    <!--<environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
@@ -22,10 +24,10 @@
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
-    </environment>
+    </environment>-->
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <!--<div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -44,16 +46,16 @@
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
+    </div>-->
+    @RenderBody()
+    <!--<div class="container body-content">
         <hr />
         <footer>
             <p>&copy; 2017 - Asa's Website</p>
         </footer>
-    </div>
+    </div>-->
 
-    <environment names="Development">
+    <!--<environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
@@ -70,6 +72,6 @@
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
 
-    @RenderSection("scripts", required: false)
+    @RenderSection("scripts", required: false)-->
 </body>
 </html>

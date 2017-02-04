@@ -2,108 +2,254 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how to build ASP.NET apps that can run anywhere.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
+<div id="content">
+
+    <!-- Header -->
+    <div id="header" class="panel">
+        <div class="left" id="header-left"><p>Hi there! Welcome to my page.<br />Feel free to look stare at my face and background picture<br />
+        or you can hover over my timeline to learn about my experiences.</p></div>
+        <div class="right">
+            <ul id="media">
+                <li><a href="http://facebook.com/asastaven" class="facebook"><img class="social-media" src="../images/facebook.png"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/asastaven" class="twitter"><img class="social-media" src="../images/twitter.png"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://linkedin.com/in/asastaven" class="linkedin"><img class="social-media" src="../images/linkedin.png"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://github.com/teamfor10" class="github"><img class="social-media" src="../images/github.png"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://instagram.com/stavenmaven" class="instagram"><img class="social-media" src="../images/instagram.png"></a>
+                </li>
+            </ul>
         </div>
-        <div class="item">
-            <img src="~/images/banner2.svg" alt="Visual Studio" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    There are powerful new features in Visual Studio for building modern web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
+        <div class="middle"><img id="about_img" src="../images/img-about.png"></div>
+        <div style="clear:both;"></div>
+    </div>
+    <p class="slide"><div class="pull-me">info</div></p>
+    <!-- Main Content -->
+    <div id="intro-description" class="description">
+         <div class="right">
+            <p>Here are some things I enjoy outside of work:</p>
+            <ul>
+                <li>Going to bars</li>
+                <li>Snowboarding</li>
+                <li>Hiking</li>
+                <li>Camping</li>
+                <li>Anything I haven't done already</li>
+            </ul>
         </div>
-        <div class="item">
-            <img src="~/images/banner3.svg" alt="Package Management" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Bring in libraries from NuGet, Bower, and npm, and automate tasks using Grunt or Gulp.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
+        <div class="left">
+            <p>I am an Applied Computing
+             Technology major and Business minor in Colorado State University’s class of 2017. I enjoy my classes
+             a lot and am currently looking to gain a Software Engineering or Web Development position after graduation.
+             My knowledge includes:
+                <ul>
+                    <li>Languages: Java&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;&nbsp;&nbsp;C++&nbsp;&nbsp;&nbsp;&nbsp;C#
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perl&nbsp;&nbsp;&nbsp;&nbsp;
+                        bash&nbsp;&nbsp;&nbsp;&nbsp;Python&nbsp;&nbsp;&nbsp;&nbsp;HTML/CSS</li>
+                    <li>OSs: Mac&nbsp;&nbsp;&nbsp;&nbsp;Windows&nbsp;&nbsp;&nbsp;&nbsp;Linux</li>
+                    <li>Frameworks: Spring&nbsp;&nbsp;&nbsp;&nbsp;.NET&nbsp;&nbsp;&nbsp;&nbsp;Agile</li>
+                    <li>Skills: MVC architecture&nbsp;&nbsp;&nbsp;&nbsp;Databases&nbsp;&nbsp;&nbsp;&nbsp;Web development</li>
+                </ul>
+            </p>
         </div>
-        <div class="item">
-            <img src="~/images/banner4.svg" alt="Microsoft Azure" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
+        <div class="middle">
+            <p class="job-title">Hi, I'm <strong>Asa Staven</strong>.<br />(AI-suh)</p>
         </div>
     </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+    <div id="hpe-description" class="description">
+        <div class="right">
+            <p>I continue to work on more projects, but here is what I have done so far:</p>
+            <ul>
+                <li>Built Java web application using Eclipse IDE and Spring framework in MVC 
+                    style architecture, requiring self-education of HTML/CSS and JavaScript</li>
+                <li>Wrote JUnit tests with >80% coverage, as proven with EclEmma</li>
+                <li>Improved team file synchronicity by writing shell script to distribute files to multiple servers</li>
+            </ul>
+        </div>
+        <div class="left">
+            <p>I have been with Hewlett Packard Enterprise since May, 2016.
+                This has allowed me to learn so much more about the industry than school alone could provide.
+                I work on a small, changing team of about 5 that allows me to learn about a range of areas in
+                software engineering.
+            </p>
+        </div>
+        <div class="middle">
+            <p class="job-title">Software Engineer Intern</p>
+            <p class="secondary-title">HPE TSS R &amp; D<br />May 2016 - present</p>
+        </div>
+    </div>
+    <div id="encompass-description" class="description">
+        <div class="right">
+            <p>Encompass did some things very well as a company and here are some reasons 
+                I enjoyed working there:</p>
+            <ul>
+                <li>Startup vibe</li>
+                <li>Free drinks and snacks (including beer)!</li>
+                <li>Knowing everyone in the company</li>
+                <li>Approachable management</li>
+            </ul>
+        </div>
+        <div class="left">
+            <p>I worked a month long stint as an intern with Encompass, which
+                is a software company that provides route accounting software for businesses in the 
+                beverage industry. My job was to learn the software and provide technical support
+                for our clients.
+            </p>
+        </div>
+        <div class="middle">
+            <p class="job-title">Resolutionary Analyst Intern</p>
+            <p class="secondary-title">Encompass Technologies, Inc.<br />March 2016 - April 2016</p>
+        </div>
+    </div>
+    <div id="csu-description" class="description">
+        <div class="right">
+            <p>As a teaching assistant at CSU, I performed the following actions:</p>
+            <ul>
+                <li>Lab instructor</li>
+                <li>Help desk leader</li>
+                <li>Established resource outside classroom</li>
+            </ul>
+        </div>
+        <div class="left">
+            <p>I wanted a profession that would be relevant to the world, mentally challenging, 
+                and allow me to live anywhere I choose. I started a second-bachelor degree in Applied Computing 
+                Technology and minor in Business in the Summer semester of 2015. After my first semester, I was selected
+                to be a teaching assistant for the department for the 2015-2016 school year. 
+            </p>
+        </div>
+        <div class="middle">
+            <p class="job-title">ACT Student</p>
+            <p class="secondary-title">Colorado State University<br />August 2015 - present</p>
+        </div>
+    </div>
+    <div id="bcr-description" class="description">
+        <div class="right">
+            <p>As a Roustabout and soil remediation technician I performed many tasks:</p>
+            <ul>
+                <li>Operated heavy machinery to convert drilling sludge into usable, dry soil</li>
+                <li>Move drill pipes and chemicals to and from loading trucks</li>
+                <li>Participate in te movement of entire oil rig</li>
+                <li>Complete any other miscellaneous tasks needed</li>
+            </ul>
+        </div>
+        <div class="left">
+            <p>One of the most interesting jobs I had was working 9 months in the oilfield as a Roustabout 
+                for a company specializing in soil remediation for drilling companies. A Roustabout is the
+                 jack-of-all-trades in the oilfield, charged with filling in any duties needed.
+            </p>
+        </div>
+        <div class="middle">
+            <p class="job-title">Roustabout</p>
+            <p class="secondary-title">BCR Oilfield Services<br />November 2014 - July 2015</p>
+        </div>
+    </div>
+    <div id="parks-description" class="description">
+        <div class="right">
+            <p>Bozeman has many parks and my job was to take care of those parks in the following ways:</p>
+            <ul>
+                <li>Mow the grass</li>
+                <li>Pick up trash in the park</li>
+                <li>Collect trash from park bins</li>
+                <li>Replant grass in barren areas</li>
+            </ul>
+        </div>
+        <div class="left">
+            <p>I lived in Bozeman, MT for 5 years and during the last few months of that time I ended
+                up working for the city's parks department. I was a seasonal technician, so the position was only
+                available for the Summer and Autumn months.
+            </p>
+        </div>
+        <div class="middle">
+            <p class="job-title">Seasonal Technician</p>
+            <p class="secondary-title">Bozeman Parks Department<br />August 2014 - November 2014</p>
+        </div>
+    </div>
+    <div id="wa-description" class="description">
+        <div class="right">
+            <p>Here is a list of the events I was in charge of:</p>
+            <ul>
+                <li>High Jump</li>
+                <li>Long Jump</li>
+                <li>Triple Jump</li>
+                <li>Pole Vault</li>
+                <li>110/100m Hurdles</li>
+                <li>300m Hurdles</li>
+            </ul>
+        </div>
+        <div class="left">
+            <p>While I was in Washington getting my Masters degree, I worked in a nearby town
+                as a high school jumps and hurdles track coach for the Spring 2014 season.
+                I was able to help a lot of great kids reach their athletic goals and, in some cases,
+                compete in the state meet.
+            </p>
+        </div>
+        <div class="middle">
+            <p class="job-title">Assistant Track &amp; field Coach</p>
+            <p class="secondary-title">Kittitas High School<br />February 2014 - June 2014</p>
+        </div>
+    </div>
+    <div id="cwu-description" class="description">
+        <div class="right">
+            <p>My research was on the interactions between juvenile Tibetan macaques
+                and tourists at Mt. Huangshan, China. Some of the areas I focused on were:</p>
+            <ul>
+                <li>Boldness measures for juveniles</li>
+                <li>Aggressiveness of the interactions</li>
+                <li>The relationships of the juveniles to each other</li>
+                <li>Initiator of interactions (human or monkey)</li>
+                <li>Type of human targeted by monkeys (male/female, adult/child)</li>
+            </ul>
+        </div>
+         <div class="left">
+            <p>I attended CWU between 2012-2014 to receive
+                my M.S. degree in Primate Behavior. I had a graduate teaching assistantship in which
+                I taught the labs of various biological sciences courses.<br /><br />
+                My research involved collecting data in China for 2 months by observing the behaviors
+                 of a group of monkeys.
+            </p>
+        </div>
+        <div class="middle">
+            <p class="job-title">Master's Student</p>
+            <p class="secondary-title">Central Washington University<br />September 2012 - June 2014</p>
+        </div>
+    </div>
+    <div id="msu-description" class="description">
+        <div class="right">
+            <p>Some awards and activities I was a part of include:</p>
+            <ul>
+                <li>Student Athlete Advisory Council</li>
+                <li>Coaches Advisory Council</li>
+                <li>Ecology Department representative</li>
+                <li>MSU representative at nationwide Division I Leadership Conference</li>
+                <li>2012 Student Athlete of the Year</li>
+                <li>2012 Academic All-American</li>
+                <li>Big Sky Conference and MSU heptathlon record holder</li>
+            </ul>
+        </div>
+        <div class="left">
+            <p>I attended MSU from 2007-2012 where I earned and B.S. in Fish
+                &amp; Wildlife Management and a minor in Entomology. I got to be a teaching assistant and research assistant
+                for the Entomology and Ecology Departments.<br /><br />I was also awarded a scholarship for being a part
+                of the track &amp; field team as a decathlete. Naturally being in MT allowed me to spend ample time 
+                in the mountains enjoying nature year round.
+            </p>
+        </div>
+        <div class="middle">
+            <p class="job-title">Fish &amp; Wildlife Student</p>
+            <p class="secondary-title">Montana State University<br />August 2007 - May 2012</p>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
 </div>
 
-<div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
-        <ul>
-            <li>Sample pages using ASP.NET Core MVC</li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518007">Gulp</a> and <a href="https://go.microsoft.com/fwlink/?LinkId=518004">Bower</a> for managing client-side libraries</li>
-            <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
-        </ul>
+<section id="track">
+    <!-- Footer -->
+    <div id="footer">
+        <div id="intro" class="timeline"></div>
+        <div id="hpe" class="timeline"></div>
+        <div id="encompass" class="timeline"></div>
+        <div id="csu" class="timeline"></div>
+        <div id="bcr" class="timeline"></div>
+        <div id="parks" class="timeline"></div>
+        <div id="wa" class="timeline"></div>
+        <div id="cwu" class="timeline"></div>
+        <div id="msu" class="timeline"></div>
     </div>
-    <div class="col-md-3">
-        <h2>How to</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699562">Add an appsetting in config and access it in app.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699318">Add client packages using Bower.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Overview</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Run & Deploy</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
-    </div>
-</div>
+</section>
